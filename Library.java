@@ -11,17 +11,17 @@ public class Library {
 	public Library() {
 		// Books currently on the shelf
 		bookList = new ArrayList<>();
-		bookList.add("Book1");
-		bookList.add("Book2");
-		bookList.add("Book3");
-		bookList.add("Book4");
+		bookList.add("Calculus Textbook");
+		bookList.add("Maze Map");
+		bookList.add("Lore Book");
+		bookList.add("Gambling Tactics");
 
 		// Map of book name -> book text
 		bookContent = new HashMap<>();
-		bookContent.put("Book1", "text1");
-		bookContent.put("Book2", "text2");
-		bookContent.put("Book3", "text3");
-		bookContent.put("Book4", "text4");
+		bookContent.put("Calculus Textbook", "You should study derivates and integrals. Derivates are the removal of a power and integrals are the addition of a power.");
+		bookContent.put("Maze Map", "The Map is incomplete but shows you must go Forward first and theres a total of 4 moves needed to reach the exit.");
+		bookContent.put("Lore Book", "This world is very magical and other wordly, heres some information about this world. The world outside of here is flat and surrounded by a waterfall. There are 3 great beasts who terrorize this world. There are 7 witches each representing a cardinal sin. The person who used to reside in this tower was a Scorpion named Shaula. The person to last clear these trials was Subaru Natsuki.");
+		bookContent.put("Gambling Tactics", "A coin is slightly more likely to land on the same side it started on before being tossed.");
 	}
 
 	// Returns list of all books avaliable on the shelf.
