@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Exam {
 
-    private static final double PASSING_PERCENT = 80.0;
+    private static final double PASSING_PERCENT = 100.0;
 
     private static final String[] QUESTIONS = {
         "1. What is the derivative of x^2?",
